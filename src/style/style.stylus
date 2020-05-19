@@ -1,3 +1,5 @@
+$font = '標楷體'
+
 #app
   width 1024px
   height 768px
@@ -7,7 +9,7 @@
   background-image url('../assets/0401.jpg')
   color #ffffff
   text-align center
-  font-family '標楷體'
+  font-family $font
   font-size 52px
   text-shadow 10px 10px 15px #333
   line-height 120px
@@ -15,9 +17,29 @@
 #Marquee1
   width 100%
   height 30px
-  font-family '標楷體'
+  font-family $font
   color #0000ff
   font-size 19px
   background-image url('../assets/0402.jpg')
   marquee
     line-height 30px
+
+#Content
+  background-image url('../assets/0402.jpg')
+  width 1024px
+  height 540px
+  table
+    margin auto
+  tr
+    height 150px
+  td
+    vertical-align middle
+    text-align center
+    &:first-child
+      width 200px
+    &:not(:first-child)
+      width 300px
+    img 
+      height 150px
+
+
