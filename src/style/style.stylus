@@ -42,4 +42,18 @@ $font = '標楷體'
     img 
       height 150px
 
+#Footer
+  width 1024px
+  height 78px
+  background-color #660
+  color #fff
+  font-family $font
+  span 
+    line-height 2
+  a
+    text-decoration none
+    color #fff
+    &:visited
+      color #f99
+
 
