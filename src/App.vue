@@ -1,9 +1,15 @@
 <template lang="pug">
-
+  #app
+    Top
 </template>
 
 <script>
+import Top from './components/Top'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Top
+  }
 }
 </script>

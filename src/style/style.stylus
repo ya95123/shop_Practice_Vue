@@ -1,4 +1,13 @@
 #app
-    width 1024px
-    height 768px
-    margin auto
+  width 1024px
+  height 768px
+  margin auto
+
+#Top
+  background-image url('../assets/0401.jpg')
+  color #ffffff
+  text-align center
+  font-family '標楷體'
+  font-size 52px
+  text-shadow 10px 10px 15px #333
+  line-height 120px
